@@ -1,0 +1,38 @@
+  
+mkdir IgrushkiDlyaShkolnikov
+mkdir IgrushkiDlyaDoshkolyat
+
+cd IgrushkiDlyaShkolnikov/
+cat > Robots.txt
+cat > Constructor.txt
+cat > TableGames.txt
+
+cd ..
+cd IgrushkiDlyaDoshkolyat/
+cat > MyagkieIgrushki.txt
+cat > Dolls.txt
+cat > Cars.txt
+
+rsync --recursive IgrushkiDlyaShkolnikov/ IgrushkiDlyaDoshkolyat/
+rm -r /home/iliya/IgrushkiDlyaShkolnikov
+
+mv /home/iliya/IgrushkiDlyaDoshkolyat /home/iliya/Igrushki
+
+cd Igrushki/
+ls
+
+sudo apt install snapd
+sudo snap find
+sudo snap install skype
+
+sudo crontab-e
+*/3****cat>>'Test Task'>>/home/iliya/Test.txt
+
+
+
+
+
+
+
+
+
